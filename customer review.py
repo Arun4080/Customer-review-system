@@ -60,7 +60,7 @@ if __name__ == "__main__":
     print("Training complete!")
     
     cap = cv2.VideoCapture(0)
-    model = load_model('experssion_detector.hdf5')
+    model = load_model('experssion_detector_neural_network.hdf5')
     target = ['very bad','disgusting','worse','very good','bad','good','neutral']
     review=[]
     font=cv2.FONT_HERSHEY_SIMPLEX
